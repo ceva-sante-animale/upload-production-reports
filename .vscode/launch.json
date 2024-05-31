@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "uploadProductionReports",
+      "region": "us-central1",
+      "gen": "GEN_2",
+      "revision": "uploadproductionreports-00002-daj",
+      "entryPoint": "hello_http",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}
