@@ -1,4 +1,5 @@
 import functions_framework
+from flask import Request
 
 @functions_framework.http
 def hello_http(request):
@@ -22,4 +23,5 @@ def hello_http(request):
         name = request_args['name']
     else:
         name = 'World'
-    return 'Salut {}!'.format(name)
+    return 'Salut {} . Je suis la cloud function upload_prouction_report !'.format(name)
+
