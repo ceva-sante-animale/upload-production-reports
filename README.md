@@ -17,3 +17,8 @@ functions-framework --target upload_file --debug
   - date: str (21-02-2024)
   - client: str (Goasduff)
   - line: number (3, for the production line in the machine)
+
+
+## TODOs
+- check API and validate
+- return http status
