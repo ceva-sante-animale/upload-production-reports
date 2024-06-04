@@ -1,2 +1,2 @@
 functions-framework==3.*
-google-cloud-storag==2.16.*
+google-cloud-storag==2.16.0
