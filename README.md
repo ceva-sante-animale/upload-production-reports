@@ -15,10 +15,16 @@ functions-framework --target upload_file --debug
 - a valid API key passed in the query params with key "apiKey"
 - the body of the POST request should have all these fields set up correctly:
   - date: str (21-02-2024)
-  - client: str (Goasduff)
+  - machine id: str (PMAXI-C21241)
   - line: number (3, for the production line in the machine)
 
 
 ## TODOs
 - check API and validate
 - return http status
+- link github with CF deployment
+- logs
+- le bon bucket
+- analyse the date
+- set up de l envoi cote Ewon
+- 
