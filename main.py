@@ -13,6 +13,7 @@ is_production = bool(os.environ.get("PORT"))
 
 if not is_production:
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials.json"
+
 BUCKET_NAME = "ecat_id_test"
 bucket = Client().bucket(BUCKET_NAME)
 
