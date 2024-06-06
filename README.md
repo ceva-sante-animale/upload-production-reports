@@ -12,11 +12,8 @@ functions-framework --target upload_file --debug
 - API method set to POST
 - file attached to the form-data section of the API request
 - the key of the attached file is "file"
-- a valid API key passed in the query params with key "apiKey"
-- the body of the POST request should have all these fields set up correctly:
-  - date: str (21-02-2024)
-  - machine id: str (PMAXI-C21241)
-  - line: number (3, for the production line in the machine)
+- a valid API key passed in the query params with key "apikey"
+- the endpoint's path is `HOST/{clientID}/{machineID}/{dd-mm-yyyy}/` (example: `HOST/3328/PMAX-C02913/21-02-2024/`)
 
 
 ## TODOs
