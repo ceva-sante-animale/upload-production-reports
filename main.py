@@ -66,7 +66,7 @@ def upload_gender_sorting(request: Request):
         logging.debug(
             f"Successfully upload file {file.filename=} (bytes) for {client_id=} {machine_code=} {date=}"
         )
-        return {"success": True, "url": blob.public_url}, 201
+        return {"success": True}, 201
     except Exception as exc:
         logging.error(
             f"Not able to upload file {file.filename=} for {client_id=} {machine_code=} {date=}"
